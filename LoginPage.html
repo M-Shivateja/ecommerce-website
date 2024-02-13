@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="icon" type="image" href="m6.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <form action="">
+        <h1>Login</h1>
+        <div class="NamePass">
+          <input
+            type="text"
+            maxlength="50"
+            placeholder="username / email"
+            id="user"
+            required
+          />
+        </div>
+        <div class="NamePass">
+          <input
+            maxlength="8"
+            type="password"
+            placeholder="Password"
+            id="pass"
+            required
+          />
+
+          <i
+            onclick="showPassword()"
+            id="icon"
+            class="fa fa-lg fa-eye-slash"
+          ></i>
+        </div>
+        <div class="Remember-forgot">
+          <label><input type="checkbox" /> remember me</label>
+          <a href="#">ForgotPassword?</a>
+        </div>
+        <button onclick="login()">Log in</button>
+        <div class="register">
+          <p>New User? <a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+    <script type`="text/js" src="./Login.js"></script>
+  </body>
+</html>

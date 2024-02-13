@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: linear-gradient(to right, #b6e1d5, #66afad, #117d7d);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+}
+.main {
+  .NamePass {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 2px 2px;
+    border: 0.5px solid #efefef;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+
+    input {
+      height: 40px;
+      border: none;
+      outline: none;
+      font-weight: bold;
+      background-color: transparent;
+      width: 70%;
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    input::placeholder {
+      color: #dbe3eb;
+      padding: 0px 0px 0px 10px;
+    }
+    #icon {
+      float: right;
+      color: #dbe3eb;
+      cursor: pointer;
+      margin-top: 13px;
+      margin-right: 10px;
+    }
+  }
+}
+.main {
+  .Remember-forgot {
+    color: #ecf0f4;
+    text-align: left;
+    float: inline-start;
+    padding: 20px 0px 0px 0px;
+    a {
+      color: #ecf0f4;
+      text-align: right;
+      float: inline-end;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: beige;
+    }
+    input {
+      width: 0.5;
+      cursor: pointer;
+    }
+  }
+}
+.main form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 30px 20px 30px 20px;
+  background-color: rgba(0, 0, 0, 0.137);
+}
+.main input[type="password"][type="text"] {
+  letter-spacing: 8px;
+}
+.main {
+  button {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    /* background-color: #82a4ac; */
+    background-color: rgba(25, 26, 27, 0.221);
+  }
+  button:hover {
+    background-color: rgba(22, 166, 179, 0.438);
+    box-shadow: 2px 3px 6px rgba(114, 113, 113, 0.348);
+    color: white;
+    font-size: large;
+  }
+}
+
+.main {
+  .register {
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: beige;
+      text-decoration: underline;
+    }
+  }
+}
